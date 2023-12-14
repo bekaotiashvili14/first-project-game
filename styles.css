@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav_container {
+  display: flex;
+  background: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_img {
+  padding: 52px 140px 0 140px;
+}
+.nav_svg {
+  width: 165px;
+  height: 68px;
+}
+.navtext_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 140px 0 140px;
+  gap: 60px;
+}
+
+.navtext {
+  color: #000;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.box_container {
+  display: flex;
+  justify-content: space-between;
+}
+.box_container_Text1 {
+  color: #b80a41;
+  font-family: joystix;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 151px 0 59px 141px;
+}
+
+.box_container_Text2 {
+  padding-left: 141px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.box_container_Text {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.box_container_img {
+  padding: 77px 140px 0 56px;
+}
+.box_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 131px 352px;
+}
+
+.box_info_text {
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 72px;
+}
+
+.box_info_img {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 150px;
+  margin-bottom: 83px;
+}
+
+.box_info_subtext {
+  color: #000000;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.box_gameboybook {
+  margin: 121px 146px 0px;
+}
+
+.box_gameboybook_header {
+  font-family: Joystix;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000000;
+  text-align: center;
+}
+.box_gameboybook_card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 53px;
+}
+.box_gameboybook_img {
+  margin-left: 143px;
+}
+.gameboybook_card_img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 142px;
+}
+.gameboybook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+}
+.free {
+  color: #ffffff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  display: inline-flex;
+  padding: 4px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 43.591px;
+  background: #2686b0;
+  margin-top: 13px;
+}
+
+.learn {
+  text-decoration: none;
+  color: #2686b0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 13px;
+}
+
+.box_info_subtext {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.book_sub {
+  color: var(--grey-80, #575656);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box_game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box_game_text {
+  color: #b80a41;
+  font-family: Joystix;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding: 112px 0 70px 0;
+}
+.box_game_card_container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 50px;
+  margin: 0 166px 0 172px;
+}
+.box_game_card {
+  width: 275px;
+  height: 373px;
+  border: 3px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box_game_black_text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.box_game_white_text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.list_item {
+  padding: 80px 0 0 141px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.list_item_text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.game_footer {
+  height: 555px;
+  background: #1a2349;
+  color: #eaeaea;
+  margin-top: 80px;
+}
+
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+.footer_container_text {
+  margin: 60px 0px 16px 141px;
+  color: #eaeaea;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.footer_header {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+hr {
+  background: #eaeaea;
+  width: 177px;
+  height: 1px;
+}
+.footer_line {
+  display: flex;
+  justify-content: center;
+  margin-left: 137px;
+  margin-top: 16px;
+}
+.socialmedia {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 190px;
+}

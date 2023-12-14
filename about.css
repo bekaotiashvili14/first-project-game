@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./svg.about/background.svg);
+}
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_img {
+  padding: 52px 140px 0 140px;
+}
+.nav_svg {
+  width: 165px;
+  height: 68px;
+}
+.navtext_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 140px 0 140px;
+  gap: 60px;
+}
+
+.navtext {
+  color: #000;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.box_header {
+  color: #b80a41;
+  font-family: Joystix;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box_main_text {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 26px 0 10px 0;
+}
+.learn {
+  color: #2686b0;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.box_main_text_black {
+  color: #000;
+  font-family: Joystix;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 45px 0 34px 0;
+}
+.card_types {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 53px 0 30px 0;
+}
+.box_sub {
+  color: #666;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  gap: 11px;
+  margin-top: 26px;
+}
+.card_container1 {
+  display: flex;
+  gap: 40px;
+}
+
+.box_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box_container_img {
+  margin: 124px 140px 0 0;
+}
+.box_container_first {
+  margin: 136px 0 0 140px;
+}
+.header {
+  color: #000;
+  font-family: Joystix;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 96px;
+}
+.card_container {
+  margin: 53px 0 80px 141px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+.card_container_box {
+  width: 271px;
+  height: 394px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card_container_text {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 26px;
+}
+.card_container_text_red {
+  color: #b80a41;
+  font-family: Joystix;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 21px;
+}
+.game_footer {
+  height: 555px;
+  background: #1a2349;
+  color: #eaeaea;
+  margin-top: 80px;
+}
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+.footer_container_text {
+  margin: 60px 0px 16px 141px;
+  color: #eaeaea;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.footer_header {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+hr {
+  background: #eaeaea;
+  width: 177px;
+  height: 1px;
+}
+.footer_line {
+  display: flex;
+  justify-content: center;
+  margin-left: 137px;
+  margin-top: 16px;
+}
+.socialmedia {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 190px;
+}
