@@ -3,30 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  background-image: url(./svg.about/background.svg);
+  background-image: url(./image/about.background.png);
 }
 .nav_container {
+  background: #fff;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-.nav_img {
-  padding: 52px 140px 0 140px;
-}
-.nav_svg {
-  width: 165px;
-  height: 68px;
+  align-items: center;
+  margin: 52px 140px 0;
 }
 .navtext_box {
+  gap: 78px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 75px 140px 0 140px;
-  gap: 60px;
 }
-
+.box_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .navtext {
   color: #000;
   text-decoration: none;
@@ -36,7 +31,6 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-
 .box_header {
   color: #b80a41;
   font-family: Joystix;
@@ -73,6 +67,10 @@ body {
   line-height: normal;
   padding: 45px 0 34px 0;
 }
+.card_container_game {
+  display: flex;
+  gap: 20px;
+}
 .card_types {
   color: #000;
   font-family: Roboto;
@@ -93,21 +91,20 @@ body {
   gap: 11px;
   margin-top: 26px;
 }
-.card_container1 {
-  display: flex;
-  gap: 40px;
-}
-
 .box_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.box_container_img {
-  margin: 124px 140px 0 0;
-}
 .box_container_first {
-  margin: 136px 0 0 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 136px 40px 174px 140px;
+}
+.box_container_img {
+  margin: 124px 140px 96px 0;
 }
 .header {
   color: #000;
@@ -120,10 +117,13 @@ body {
   margin-top: 96px;
 }
 .card_container {
-  margin: 53px 0 80px 141px;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 53px 141px 80px 143px;
 }
+
 .card_container_box {
   width: 271px;
   height: 394px;
@@ -152,10 +152,9 @@ body {
   margin-top: 21px;
 }
 .game_footer {
-  height: 555px;
   background: #1a2349;
   color: #eaeaea;
-  margin-top: 80px;
+  height: 555px;
 }
 .footer_container {
   display: grid;
@@ -187,14 +186,14 @@ hr {
   width: 177px;
   height: 1px;
 }
-.footer_line {
+
+.line {
   display: flex;
   justify-content: center;
-  margin-left: 137px;
-  margin-top: 16px;
+  margin: 16px 140px 20px;
 }
 .socialmedia {
   display: flex;
   justify-content: flex-end;
-  margin: 30px 190px;
+  margin: 0 140px;
 }

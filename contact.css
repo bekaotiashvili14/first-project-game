@@ -4,24 +4,20 @@
   box-sizing: border-box;
 }
 .nav_container {
-  display: flex;
   background: #fff;
-  align-items: center;
+  display: flex;
   justify-content: space-between;
-}
-.nav_img {
-  padding: 52px 140px 0 140px;
-}
-.nav_svg {
-  width: 165px;
-  height: 68px;
+  align-items: center;
+  margin: 52px 140px 0;
 }
 .navtext_box {
+  gap: 78px;
   display: flex;
-  justify-content: center;
+}
+.box_container {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 75px 140px 0 140px;
-  gap: 60px;
 }
 .navtext {
   color: #000;
@@ -32,7 +28,6 @@
   font-weight: 700;
   line-height: normal;
 }
-
 .box {
   display: flex;
   justify-content: space-between;
@@ -177,12 +172,10 @@ textarea {
 }
 
 .game_footer {
-  height: 555px;
   background: #1a2349;
   color: #eaeaea;
-  margin-top: 80px;
+  height: 555px;
 }
-
 .footer_container {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -213,14 +206,14 @@ hr {
   width: 177px;
   height: 1px;
 }
-.footer_line {
+
+.line {
   display: flex;
   justify-content: center;
-  margin-left: 137px;
-  margin-top: 16px;
+  margin: 16px 140px 20px;
 }
 .socialmedia {
   display: flex;
   justify-content: flex-end;
-  margin: 30px 190px;
+  margin: 0 140px;
 }
